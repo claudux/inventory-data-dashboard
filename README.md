@@ -54,7 +54,8 @@ Se generó un dashboard gerencial que permitió visualizar de forma clara el est
 Por confidencialidad, este repositorio presenta una versión adaptada del caso real, sin exponer datos sensibles ni información interna.
 
 ## Vista previa
-Agregar aquí capturas del dashboard y del flujo de datos.
+<img width="2061" height="1166" alt="image" src="https://github.com/user-attachments/assets/68f3c0af-3ddb-4937-ae18-6bbbdb23cd20" />
+
 
 ## Próximas mejoras
 - automatización de actualización de datos
