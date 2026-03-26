@@ -73,6 +73,11 @@ Por confidencialidad, este repositorio presenta una versión adaptada del caso r
 
 ## Próximas mejoras
 - automatización de actualización de datos
-
 - integración con nuevas fuentes
 - incorporación de alertas o indicadores avanzados
+
+```text
+docs/
+├── business-context.md
+├── data-cleaning-process.md
+└── insights-and-kpis.md
