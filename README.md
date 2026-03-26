@@ -35,6 +35,9 @@ Se realizó un proceso completo de:
 - Python
 - Power Platform
 
+## Aprendizajes
+Este proyecto permitió fortalecer habilidades en limpieza de datos, estructuración de información, definición de KPIs y desarrollo de dashboards orientados a gestión.
+
 ## Proceso de trabajo
 1. Revisión de la base de datos original
 2. Limpieza y normalización de campos
