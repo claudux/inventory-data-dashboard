@@ -80,8 +80,10 @@ Por confidencialidad, este repositorio presenta una versión adaptada del caso r
 - integración con nuevas fuentes
 - incorporación de alertas o indicadores avanzados
 
-## Documentación adicional
+## Documentación del proyecto
+
+Este repositorio incluye documentación complementaria sobre el contexto, la preparación de datos y los principales indicadores del dashboard.
 
 - [Contexto de negocio](docs/business-context.md)
-- [Proceso de limpieza de datos](docs/data-cleaning-process.md)
+- [Proceso de limpieza y preparación de datos](docs/data-cleaning-process.md)
 - [Insights e indicadores clave](docs/insights-and-kpis.md)
