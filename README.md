@@ -37,13 +37,15 @@ Se realizó un proceso completo de:
 ## Flujo del proyecto
 Datos brutos de inventario en Excel → limpieza y normalización → transformación y validación → análisis de datos → definición de KPIs → dashboard en Power BI → apoyo a la gestión y toma de decisiones.
 
+```mermaid
 flowchart LR
-    A[Datos brutos de inventario en Excel] --> B[Limpieza y normalizacion de datos]
-    B --> C[Transformacion y estandarizacion]
-    C --> D[Analisis de datos]
-    D --> E[Definicion de KPIs]
+    A[Datos brutos de inventario en Excel] --> B[Limpieza y normalización de datos]
+    B --> C[Transformación y estandarización]
+    C --> D[Análisis de datos]
+    D --> E[Definición de KPIs]
     E --> F[Dashboard en Power BI]
-    F --> G[Apoyo a la gestion y toma de decisiones]
+    F --> G[Apoyo a la gestión y toma de decisiones]
+```
 
 ## Indicadores generados
 - total de activos registrados
@@ -65,14 +67,6 @@ Se generó un dashboard gerencial que permitió visualizar de forma clara el est
 Por confidencialidad, este repositorio presenta una versión adaptada del caso real, sin exponer datos sensibles ni información interna.
 
 ## Vista previa
-flowchart LR
-    A[Datos brutos de inventario en Excel] --> B[Limpieza y normalizacion de datos]
-    B --> C[Transformacion y estandarizacion]
-    C --> D[Analisis de datos]
-    D --> E[Definicion de KPIs]
-    E --> F[Dashboard en Power BI]
-    F --> G[Apoyo a la gestion y toma de decisiones]
-
 
 ## Próximas mejoras
 - automatización de actualización de datos
