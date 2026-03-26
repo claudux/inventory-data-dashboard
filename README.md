@@ -80,8 +80,8 @@ Por confidencialidad, este repositorio presenta una versión adaptada del caso r
 - integración con nuevas fuentes
 - incorporación de alertas o indicadores avanzados
 
-```text
-docs/
-├── business-context.md
-├── data-cleaning-process.md
-└── insights-and-kpis.md
+## Documentación adicional
+
+- [Contexto de negocio](docs/business-context.md)
+- [Proceso de limpieza de datos](docs/data-cleaning-process.md)
+- [Insights e indicadores clave](docs/insights-and-kpis.md)
