@@ -67,8 +67,8 @@ Por confidencialidad, este repositorio presenta una versión adaptada del caso r
 ## Capturas del dashboard
 
 <p align="center">
-  <img src="images/inventario difuminado 1.png" alt="Vista general del dashboard" width="48%">
-  <img src="images/inventario difuminado 2.png" alt="Vista analítica del dashboard" width="48%">
+  <img src="images/inventario_difuminado 1.png" alt="Vista general del dashboard" width="48%">
+  <img src="images/inventario_difuminado 2.png" alt="Vista analítica del dashboard" width="48%">
 </p>
 
 ## Próximas mejoras
