@@ -7,8 +7,8 @@ Proyecto de análisis de datos y visualización orientado al proceso de inventar
 - [Objetivo](#objetivo)
 - [Contexto](#contexto)
 - [Flujo del proyecto](#flujo-del-proyecto)
-- [Vista previa del proyecto](#vista-previa-del-proyecto)
-- [Documentación adicional](#documentación-adicional)
+- [Vista previa del proyecto](#Resultados)
+- [Documentación adicional](#Documentación-del-proyecto)
 
 
 ## Objetivo
