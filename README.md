@@ -6,7 +6,7 @@ Proyecto de análisis de datos y visualización orientado al proceso de inventar
 Transformar una base de datos de inventario en información útil para control, análisis y visualización ejecutiva.
 
 ## Contexto
-Durante el proceso de inventario de activos fijos, se trabajó con una base de datos en Excel que contenía información bruta de los activos. El proyecto consistió en limpiar, estructurar y analizar los datos para construir un dashboard con indicadores relevantes para la gestión.
+Este proyecto presenta un caso aplicado de análisis y visualización de datos desarrollado a partir del inventario de activos fijos de una institución con múltiples sedes. La información original se encontraba desordenada, desactualizada y sin una estructura clara de clasificación por sede y área, lo que dificultaba el control y análisis del inventario. A partir de este escenario, se realizó un proceso de limpieza, estructuración y construcción de indicadores para desarrollar un dashboard gerencial orientado a la toma de decisiones.
 
 ## Problema
 La información original presentaba desafíos de estructura, consistencia y legibilidad, lo que dificultaba el análisis y la generación de reportes útiles para la toma de decisiones.
@@ -52,8 +52,12 @@ flowchart LR
 - estado de los activos
 - hallazgos relevantes para control y gestión
 
-## Resultado
-Se generó un dashboard gerencial que permitió visualizar de forma clara el estado del inventario, detectar oportunidades de mejora y facilitar el acceso a información consolidada para la toma de decisiones.
+## Resultados
+- Identificación del inventario real por sede
+- Determinación del faltante total de activos
+- Visualización de KPIs de inventario y valorización
+- Segmentación por sede, área y año de ingreso
+- Apoyo al área financiera para estimar el valor de inventario por sede
 
 ## Valor aportado
 - mejora en la visibilidad del inventario
