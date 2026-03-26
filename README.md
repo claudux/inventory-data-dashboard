@@ -2,6 +2,15 @@
 
 Proyecto de análisis de datos y visualización orientado al proceso de inventario de activos fijos, desde la limpieza de datos brutos hasta la construcción de un dashboard gerencial para apoyar la toma de decisiones.
 
+## Contenido
+
+- [Objetivo](#objetivo)
+- [Contexto](#contexto)
+- [Flujo del proyecto](#flujo-del-proyecto)
+- [Vista previa del proyecto](#vista-previa-del-proyecto)
+- [Documentación adicional](#documentación-adicional)
+
+
 ## Objetivo
 Transformar una base de datos de inventario en información útil para control, análisis y visualización ejecutiva.
 
