@@ -33,6 +33,17 @@ Se realizó un proceso completo de:
 4. Análisis de datos
 5. Definición de KPIs
 6. Diseño y desarrollo del dashboard
+   
+## Flujo del proyecto
+Datos brutos de inventario en Excel → limpieza y normalización → transformación y validación → análisis de datos → definición de KPIs → dashboard en Power BI → apoyo a la gestión y toma de decisiones.
+
+flowchart LR
+    A[Datos brutos de inventario en Excel] --> B[Limpieza y normalizacion de datos]
+    B --> C[Transformacion y estandarizacion]
+    C --> D[Analisis de datos]
+    D --> E[Definicion de KPIs]
+    E --> F[Dashboard en Power BI]
+    F --> G[Apoyo a la gestion y toma de decisiones]
 
 ## Indicadores generados
 - total de activos registrados
