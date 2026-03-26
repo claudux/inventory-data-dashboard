@@ -54,7 +54,13 @@ Se generó un dashboard gerencial que permitió visualizar de forma clara el est
 Por confidencialidad, este repositorio presenta una versión adaptada del caso real, sin exponer datos sensibles ni información interna.
 
 ## Vista previa
-<img width="2061" height="1166" alt="image" src="https://github.com/user-attachments/assets/68f3c0af-3ddb-4937-ae18-6bbbdb23cd20" />
+flowchart LR
+    A[Datos brutos de inventario en Excel] --> B[Limpieza y normalizacion de datos]
+    B --> C[Transformacion y estandarizacion]
+    C --> D[Analisis de datos]
+    D --> E[Definicion de KPIs]
+    E --> F[Dashboard en Power BI]
+    F --> G[Apoyo a la gestion y toma de decisiones]
 
 
 ## Próximas mejoras
