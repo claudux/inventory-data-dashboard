@@ -50,6 +50,9 @@ Se generó un dashboard gerencial que permitió visualizar de forma clara el est
 - reducción del tiempo de análisis manual
 - información más clara para áreas de gestión
 
+## Enfoque del proyecto
+Por confidencialidad, este repositorio presenta una versión adaptada del caso real, sin exponer datos sensibles ni información interna.
+
 ## Vista previa
 Agregar aquí capturas del dashboard y del flujo de datos.
 
