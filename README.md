@@ -35,8 +35,6 @@ Se realizó un proceso completo de:
 6. Diseño y desarrollo del dashboard
    
 ## Flujo del proyecto
-Datos brutos de inventario en Excel → limpieza y normalización → transformación y validación → análisis de datos → definición de KPIs → dashboard en Power BI → apoyo a la gestión y toma de decisiones.
-
 ```mermaid
 flowchart LR
     A[Datos brutos de inventario en Excel] --> B[Limpieza y normalización de datos]
@@ -68,7 +66,14 @@ Por confidencialidad, este repositorio presenta una versión adaptada del caso r
 
 ## Vista previa
 
+### Vista general
+![Vista general del dashboard](<img width="1536" height="1024" alt="inventario_difuminado 1" src="https://github.com/user-attachments/assets/446cf676-312a-4ce7-b1b4-7e51031637cd" />)
+
+### Vista analítica
+![Vista analítica del dashboard](<img width="1536" height="1024" alt="inventario_difuminado 2" src="https://github.com/user-attachments/assets/89c442fa-1b5b-40f4-a420-5354edc09da4" />)
+
 ## Próximas mejoras
 - automatización de actualización de datos
+
 - integración con nuevas fuentes
 - incorporación de alertas o indicadores avanzados
