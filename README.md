@@ -64,13 +64,12 @@ Se generó un dashboard gerencial que permitió visualizar de forma clara el est
 ## Enfoque del proyecto
 Por confidencialidad, este repositorio presenta una versión adaptada del caso real, sin exponer datos sensibles ni información interna.
 
-## Vista previa
+## Capturas del dashboard
 
-### Vista general
-![Vista general del dashboard](<img width="1536" height="1024" alt="inventario_difuminado 1" src="https://github.com/user-attachments/assets/446cf676-312a-4ce7-b1b4-7e51031637cd" />)
-
-### Vista analítica
-![Vista analítica del dashboard](<img width="1536" height="1024" alt="inventario_difuminado 2" src="https://github.com/user-attachments/assets/89c442fa-1b5b-40f4-a420-5354edc09da4" />)
+<p align="center">
+  <img src="images/dashboard-overview-blur.png" alt="Vista general del dashboard" width="48%">
+  <img src="images/dashboard-analysis-blur.png" alt="Vista analítica del dashboard" width="48%">
+</p>
 
 ## Próximas mejoras
 - automatización de actualización de datos
