@@ -99,3 +99,8 @@ Este repositorio incluye documentación complementaria sobre el contexto, la pre
 - [Contexto de negocio](docs/business-context.md)
 - [Proceso de limpieza y preparación de datos](docs/data-cleaning-process.md)
 - [Insights e indicadores clave](docs/insights-and-kpis.md)
+
+## Contacto
+
+Si quieres conocer más sobre este proyecto o mi trabajo en automatización y análisis de datos, puedes escribirme a:  
+[claudio.duran.m@gmail.com](mailto:claudio.duran.m@gmail.com)
