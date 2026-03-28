@@ -1,106 +1,94 @@
-# Inventory Data Dashboard
+# 📦 Inventory Data Dashboard
 
-Proyecto de análisis de datos y visualización orientado al proceso de inventario de activos fijos, desde la limpieza de datos brutos hasta la construcción de un dashboard gerencial para apoyar la toma de decisiones.
+> Proyecto *end-to-end* de análisis de datos y visualización orientado al proceso de inventario de activos fijos, desde la limpieza de datos brutos hasta la construcción de un dashboard gerencial para apoyar la toma de decisiones financieras y operativas.
 
-## Contenido
+## 📑 Contenido
+- [Objetivo](#-objetivo)
+- [Contexto y Problema](#-contexto-y-problema)
+- [Solución Desarrollada](#-solución-desarrollada)
+- [Proceso y Flujo de Trabajo](#-proceso-y-flujo-de-trabajo)
+- [Resultados y Valor Aportado](#-resultados-y-valor-aportado)
+- [Vista Previa del Proyecto](#%EF%B8%8F-vista-previa-del-proyecto)
+- [Documentación Adicional](#-documentación-del-proyecto)
 
-- [Objetivo](#objetivo)
-- [Contexto](#contexto)
-- [Flujo del proyecto](#flujo-del-proyecto)
-- [Vista previa del proyecto](#Resultados)
-- [Documentación adicional](#Documentación-del-proyecto)
+## 📝 Objetivo
+Transformar una base de datos de inventario cruda y desestructurada en información útil, dinámica y precisa para el control, análisis y visualización a nivel ejecutivo.
 
+## 📖 Contexto y Problema
+Este proyecto presenta un caso aplicado basado en el inventario de activos fijos de una institución con múltiples sedes. 
 
-## Objetivo
-Transformar una base de datos de inventario en información útil para control, análisis y visualización ejecutiva.
+**El Problema:** La información original se encontraba desordenada, desactualizada y sin una estructura clara de clasificación topológica (por sede y área). Adicionalmente, presentaba desafíos de consistencia y legibilidad (campos nulos o duplicados), lo que imposibilitaba el análisis cruzado, el control real del inventario y la generación de reportes financieros confiables.
 
-## Contexto
-Este proyecto presenta un caso aplicado de análisis y visualización de datos desarrollado a partir del inventario de activos fijos de una institución con múltiples sedes. La información original se encontraba desordenada, desactualizada y sin una estructura clara de clasificación por sede y área, lo que dificultaba el control y análisis del inventario. A partir de este escenario, se realizó un proceso de limpieza, estructuración y construcción de indicadores para desarrollar un dashboard gerencial orientado a la toma de decisiones.
+## 💡 Solución Desarrollada
+Se ejecutó un proceso completo de Inteligencia de Negocios que abarcó:
+- Limpieza profunda y transformación de datos (ETL).
+- Estandarización de campos y reglas de validación.
+- Análisis exploratorio descriptivo.
+- Definición de indicadores clave de rendimiento (KPIs).
+- Construcción de un dashboard gerencial en Power BI.
 
-## Problema
-La información original presentaba desafíos de estructura, consistencia y legibilidad, lo que dificultaba el análisis y la generación de reportes útiles para la toma de decisiones.
+### 🛠️ Herramientas Utilizadas
+- **Tratamiento Avanzado:** Python (Pandas).
+- **Procesamiento de Datos:** Microsoft Excel, Power Query.
+- **Visualización:** Microsoft Power BI (DAX).
+- **Ecosistema de Apoyo:** Microsoft Power Platform.
 
-## Solución desarrollada
-Se realizó un proceso completo de:
-- limpieza y transformación de datos
-- estandarización de campos
-- análisis exploratorio
-- definición de indicadores clave
-- construcción de dashboard gerencial
+## 🔄 Proceso y Flujo de Trabajo
 
-## Herramientas utilizadas
-- Excel
-- Power BI
-- Power Query
-- Python
-- Power Platform
+### Paso a paso:
+1. Revisión de la base de datos original (auditoría de calidad de datos).
+2. Limpieza y normalización de campos (texto, fechas, monedas).
+3. Identificación y tratamiento de inconsistencias y valores nulos (*missing values*).
+4. Análisis exploratorio de los datos limpios.
+5. Definición de métricas y KPIs con los *stakeholders*.
+6. Diseño UI/UX y desarrollo del dashboard interactivo.
 
-## Aprendizajes
-Este proyecto permitió fortalecer habilidades en limpieza de datos, estructuración de información, definición de KPIs y desarrollo de dashboards orientados a gestión.
-
-## Proceso de trabajo
-1. Revisión de la base de datos original
-2. Limpieza y normalización de campos
-3. Identificación de inconsistencias y valores faltantes
-4. Análisis de datos
-5. Definición de KPIs
-6. Diseño y desarrollo del dashboard
-   
-## Flujo del proyecto
+### Arquitectura de Datos:
 ```mermaid
 flowchart LR
-    A[Datos brutos de inventario en Excel] --> B[Limpieza y normalización de datos]
-    B --> C[Transformación y estandarización]
-    C --> D[Análisis de datos]
-    D --> E[Definición de KPIs]
-    E --> F[Dashboard en Power BI]
-    F --> G[Apoyo a la gestión y toma de decisiones]
+    A["Datos brutos (Excel)"] --> B["Limpieza y normalización"]
+    B --> C["Transformación (ETL)"]
+    C --> D["Análisis exploratorio"]
+    D --> E["Definición de KPIs"]
+    E --> F["Dashboard en Power BI"]
+    F --> G["Apoyo a decisiones"]
 ```
 
-## Indicadores generados
-- total de activos registrados
-- distribución por categoría
-- activos por ubicación
-- estado de los activos
-- hallazgos relevantes para control y gestión
+## 📊 Resultados y Valor Aportado
 
-## Resultados
-- Identificación del inventario real por sede
-- Determinación del faltante total de activos
-- Visualización de KPIs de inventario y valorización
-- Segmentación por sede, área y año de ingreso
-- Apoyo al área financiera para estimar el valor de inventario por sede
+### Indicadores Generados
+- Total de activos registrados físicamente.
+- Distribución contable por categoría de activo.
+- Concentración de activos por ubicación (Sede/Área).
+- Estado de conservación de los activos.
+- Hallazgos relevantes (bajas, extravíos, mermas).
 
-## Valor aportado
-- mejora en la visibilidad del inventario
-- apoyo a la gestión y control de activos
-- reducción del tiempo de análisis manual
-- información más clara para áreas de gestión
+### Valor Aportado a la Institución
+- **Control Real:** Identificación del inventario real por sede y determinación del porcentaje de activos faltantes.
+- **Impacto Financiero:** Apoyo directo al área de finanzas para estimar la valorización y depreciación del inventario por sede.
+- **Visibilidad y Tiempo:** Reducción drástica del tiempo invertido en análisis manual, entregando visibilidad 24/7 a las áreas de gestión.
 
-## Enfoque del proyecto
-Por confidencialidad, este repositorio presenta una versión adaptada del caso real, sin exponer datos sensibles ni información interna.
-
-## Capturas del dashboard
+## 👁️ Vista Previa del Proyecto
 
 <p align="center">
   <img src="images/inventario_difuminado 1.png" alt="Vista general del dashboard" width="48%">
   <img src="images/inventario_difuminado 2.png" alt="Vista analítica del dashboard" width="48%">
 </p>
 
-## Próximas mejoras
-- automatización de actualización de datos
-- integración con nuevas fuentes
-- incorporación de alertas o indicadores avanzados
+> **Nota:** Por confidencialidad, las imágenes muestran datos difuminados, ficticios o adaptados del caso real para no exponer información contable sensible de la institución.
 
-## Documentación del proyecto
+## 🚀 Próximas Mejoras (Roadmap)
+- Automatización programada de la actualización de datos vía Power Automate.
+- Integración directa con nuevas fuentes (Ej. ERP Institucional) mediante API.
+- Incorporación de alertas tempranas para activos que cumplen su vida útil.
 
-Este repositorio incluye documentación complementaria sobre el contexto, la preparación de datos y los principales indicadores del dashboard.
+## 📚 Documentación del Proyecto
+Este repositorio incluye documentación complementaria detallada sobre el caso:
+- 🏢 [Contexto de negocio](docs/business-context.md)
+- 🧹 [Proceso de limpieza y preparación de datos](docs/data-cleaning-process.md)
+- 📈 [Insights e indicadores clave](docs/insights-and-kpis.md)
 
-- [Contexto de negocio](docs/business-context.md)
-- [Proceso de limpieza y preparación de datos](docs/data-cleaning-process.md)
-- [Insights e indicadores clave](docs/insights-and-kpis.md)
-
-## Contacto
-
-Si quieres conocer más sobre este proyecto o mi trabajo en automatización y análisis de datos, puedes escribirme a:  
-[claudio.duran.m@gmail.com](mailto:claudio.duran.m@gmail.com)
+## 📫 Contacto
+Si quieres conocer más sobre mis proyectos de análisis de datos corporativos, puedes contactarme:
+- 📧 **Email:** [claudio.duran.m@gmail.com](mailto:claudio.duran.m@gmail.com)
+- 💼 **LinkedIn:** [Claudio Durán Molina](https://www.linkedin.com/in/claudio-duran-molina-41580677)
